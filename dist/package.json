@@ -23,9 +23,12 @@
     "abortcontroller-polyfill": "^1.4.0",
     "core-js": "^3.5.0",
     "cross-fetch": "^3.0.4",
+    "crypto-js": "^3.1.9-1",
     "debug": "^4.1.1"
   },
-  "engine": "node >= 10",
+  "engines": {
+    "node": ">=10"
+  },
   "browserslist": [
     "last 2 Chrome versions",
     "last 2 firefox versions",
